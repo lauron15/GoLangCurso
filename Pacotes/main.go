@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("Olá, Mundo!1")
 	auxiliar.Escrever()
 
-	erro := checkmail.ValidateFormat("123")
+	erro := checkmail.ValidateFormat("lauroafp@gmail.com")
 	// verificação simples, se o erro for diferente de nil (null do go)
 	if erro != nil {
 		fmt.Printf("Erro: %v\n", erro)
